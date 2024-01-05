@@ -1,0 +1,44 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ box-sizing: border-box;
+ height: 100vh;
+ width: 100%;
+}
+.menu{
+ display: flex;
+ justify-content: space-between;
+ background-color: cornflowerblue;
+
+}
+.logo{
+ margin: 5px;
+}
+.logo img{
+ height: 60px;
+ width: 60px;
+ border: none;
+ border-radius: 50%;
+}
+ul{
+ display: flex;
+ margin-right: 10px;
+ align-items: center;
+ justify-content: center;
+}
+li{
+ list-style: none;
+ padding: 10px;
+ font-size: 26px;
+}
+a{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ transition: .2s ease-in-out;
+}
+a:hover{
+ color: blueviolet;
+ transform: translate(5deg);
+}
